@@ -1,0 +1,6 @@
+<%attr> key => "val" </%attr>
+index<br>
+<br>
+% for (qw(attr_good attr_bad)) {
+    <a href="<% $_ %>"><% $_ %></a><br>
+% }

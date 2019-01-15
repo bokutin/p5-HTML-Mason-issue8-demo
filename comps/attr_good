@@ -1,0 +1,5 @@
+<%attr>
+    key => "val"
+</%attr>
+attr_good
+% die;
